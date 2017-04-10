@@ -1,0 +1,169 @@
+/* Colour Scheme 
+
+Dary Grey #464646
+
+/* Globals */
+
+body {
+    background-image: url("../images/industrial_texture.jpg");
+       color: #fff;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0% 2%;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 25%;
+    max-width: 100px;
+    border-radius: 100%;
+}
+
+h1 {
+    font-size: 2.25em;
+    line-height: 1.3333em;
+    margin-top: 0.4444em;
+    text-align: center;
+    color: #75b775;
+}
+
+h2 {
+    font-size: 1.5em;
+    line-height: 1.3333em;
+    margin-top: 0.6667em;
+    text-align: center;
+    color: #75b775;
+}
+
+h3 {
+    color: #75b775;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1em;
+    margin-top: 1em;
+}
+
+img {
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+}
+
+hr{
+    width: 80%;
+    border-bottom: 1px solid#fff;
+}
+
+/* Classes */
+
+.content{
+     background-color: rgba(35, 35,35, 0.90);
+     padding: 25px;
+}
+
+
+.navigation {
+    display: block;
+}
+
+.navigation img {
+    display: block;
+    width: 50px;
+    margin: 0px auto;
+    color: red;
+}
+
+.navigation p {
+    border-radius: 5px;
+    text-align: center;
+    background: #fff;
+    max-width: 400px;
+    margin: 1em auto;
+}
+
+.navigation a {
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: #232323;
+    padding: 15px;
+    display: block;
+    margin: auto;
+}
+
+.navigation p a:hover {
+    color: #000000;
+    background: #658755;
+    transition: 1s all;
+}
+
+
+.summary {
+    text-align: center;
+}
+
+.proficiencies .bar {
+    background-color: #658755;
+    height: 1em;
+}
+
+.experience {
+    margin: auto auto;
+    width: 100%;
+}
+
+.experience .block {
+    margin: 10px auto;
+    padding: 25px 0px 25px 0px;
+    background: #464646;
+    text-align: center;
+}
+
+.bold {
+    font-weight: 700;
+    text-align: center;
+}
+
+.testimonials img {
+    display: block;
+    margin: 0px auto;
+    border-radius: 100%;
+    width: 25%;
+    max-width: 100px;
+}
+
+.testimonials p {
+    text-align: center;
+}
+
+.awards {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.awards img {
+    display: block;
+    margin: 0px auto;
+    border-radius: 100%;
+    width: 25%;
+    max-width: 100px;
+}
+
+footer{
+
+    margin-bottom: 25px;
+}
+
+
+footer img{
+    display: block;
+    margin: 0px auto;
+    max-width: 25px;
+}
