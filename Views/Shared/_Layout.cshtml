@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+
+<html>
+
+
+
+<head>
+   
+
+<meta charset="utf-8" />
+   
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+<title>@ViewData["Title"] - Tony Greenhalgh
+
+    
+</title>
+
+    <environment names="Development">
+        
+<link rel="stylesheet" href="~/css/reset.css" />
+       
+<link rel="stylesheet" href="~/css/profile.css" />
+  
+
+</environment>
+
+    
+<environment names="Staging,Production">
+       
+<link rel="stylesheet" href="~/css/reset.css" />
+    
+<link rel="stylesheet" href="~/css/profile.css" />
+   
+</environment>
+
+
+</head>
+
+
+
+<body>
+
+
+
+<div class="content">
+
+
+   
+
+<nav class="navigation">
+        
+<img src="../images/way.png" alt="Logo">
+    
+
+<hr>
+       
+
+<p> <a href="#">Home</a></p>
+       
+<p> <a href="#summary">Summary</a></p>
+ 
+<p> <a href="#proficiencies">Proficiencies</a></p>
+  
+<p> <a href="#testimonials">Testimonials</a></p>
+        
+<p> <a href="#history">History</a></p>
+       
+<p> <a href="#awards">Awards</a></p>
+        
+<p> <a href="#education">Education</a></p>
+        
+<p> <a href="#contact">Contact</a></p>
+        
+
+<hr>
+    
+</nav>
+
+    
+
+@RenderBody()
+
+    
+
+
+<footer>
+        
+<p>&copy; 2017 - Tony Greenhalgh</p>
+        
+<a href="https://www.linkedin.com/in/tony-greenhalgh"><img src="../images/in.png" alt="Linked In Profile" />
+</a>
+    
+
+</footer>
+
+    
+
+<!--scripts-->
+
+    
+<environment names="Development">
+
+    
+</environment>
+
+
+    
+<environment names="Staging,Production">
+
+    
+
+</environment>
+
+    
+
+@RenderSection("Scripts", required: false)
+
+</div>
+
+</html>
